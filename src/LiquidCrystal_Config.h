@@ -2,7 +2,6 @@
 #define _LIQUIDCRYSTAL_CONFIG_H
 
 #include <avr/io.h>
-#define F_CPU 8000000UL
 #include <util/delay.h>
 
 #define LCD_DATA_DDR DDRB
@@ -13,8 +12,8 @@
 #define LCD_CMND_PRT PORTB
 #define LCD_CMND_PIN PINB
 
-#define LCD_COL_COUNT 20
-#define LCD_ROW_COUNT 4
+#define LCD_COL_COUNT 16
+#define LCD_ROW_COUNT 2
 
 #define LCD_CTRL_MODE 4     // Use only 4 bit or 8 bit values
 

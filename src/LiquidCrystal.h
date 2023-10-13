@@ -1,7 +1,7 @@
 #ifndef _LIQUIDCRYSTAL_H
 #define _LIQUIDCRYSTAL_H
 
-
+#include <stdint.h>
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
